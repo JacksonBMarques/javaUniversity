@@ -4,6 +4,13 @@ public class Student {
     private String nome;
     private int[] notas;
 
+
+
+
+    public Student(String nome, int[] notas){
+        this.nome = nome;
+        this.notas = notas;
+    }
     public void setNome(String nome) {
         this.nome = nome;
     }
